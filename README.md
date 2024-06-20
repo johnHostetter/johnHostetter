@@ -21,15 +21,27 @@ These architectures natively handle missing data in the inputs and can easily tr
 - First work to use fuzzy logic control to yield a pedagogical policy.
   [![DOI:10.1109/FUZZ52849.2023.10309741](http://img.shields.io/badge/DOI-10.1109/FUZZ52849.2023.10309741-B31B1B.svg)](https://doi.org/10.1109/FUZZ52849.2023.10309741)
 
+## Q & A
+### How can I help your business?
+
+My expertise is in developing novel solutions to previously unsolvable problems and building scalable code libraries to put them into action.
+I am looking for a new role where I can push not only my boundaries, but the boundaries of entire fields by continuing to solve the unsolvable.
+
+### What is my coding philosophy?
+
+I implement a test-driven agile workflow that emphasizes modular and reusable code with high cohesion and low coupling. 
+My code is clear, self-documenting, and minimal, yet I strongly advocate for comprehensive documentation, utilizing tools like Sphinx. 
+I adhere to the relevant conventions of the programming language and maintain a consistent style, such as using Black for Python code formatting.
+
+## Contact Information 📬
+
+Email: jwhostet@ncsu.edu or jhostetter16@gmail.com
+
 ## Fun Fact ⚡
 
 My "coding buddy" is an adopted three year old Siberian Husky named Zoey!
 
 <img src="https://github.com/johnHostetter/johnHostetter/assets/35469358/409f6ad5-7542-47eb-b257-042e3d5dd689/zoey.jpg" alt="drawing" width="300" border="1"/>
-
-## Contact Information 📬
-
-Email: jwhostet@ncsu.edu or jhostetter16@gmail.com
 
 ![github stats for johnHostetter](https://github-readme-stats.vercel.app/api?username=johnHostetter)
 
