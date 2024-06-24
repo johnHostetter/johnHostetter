@@ -16,7 +16,7 @@ These architectures natively handle missing data in the inputs and can easily tr
 - Invented the first method to achieve fuzzy reinforcement learning in computer vision tasks (pending review).
 - First publication to create NFNs for tasks with high-dimensions (to the best of my knowledge).
   [![DOI:10.5555/3545946.3598770](http://img.shields.io/badge/DOI-10.5555/3545946.3598770-B31B1B.svg)](https://doi.org/10.5555/3545946.3598770)
-- Published the first work solely dedicated to offline fuzzy reinforcement learning.
+- Published the first work solely dedicated to offline model-free fuzzy reinforcement learning.
   [![DOI:10.5555/3545946.3598770](http://img.shields.io/badge/DOI-10.5555/3545946.3598770-B31B1B.svg)](https://doi.org/10.5555/3545946.3598770)
 - First work to use fuzzy logic control to yield a pedagogical policy.
   [![DOI:10.1109/FUZZ52849.2023.10309741](http://img.shields.io/badge/DOI-10.1109/FUZZ52849.2023.10309741-B31B1B.svg)](https://doi.org/10.1109/FUZZ52849.2023.10309741)
