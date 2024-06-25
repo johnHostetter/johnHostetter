@@ -21,7 +21,7 @@ These architectures natively handle missing data in the inputs and can easily tr
 - First work to use fuzzy logic control to yield a pedagogical policy.
   [![DOI:10.1109/FUZZ52849.2023.10309741](http://img.shields.io/badge/DOI-10.1109/FUZZ52849.2023.10309741-B31B1B.svg)](https://doi.org/10.1109/FUZZ52849.2023.10309741)
 
-## Q & A
+## Q & A ❓
 ### How can I help your business?
 
 My expertise is in developing novel solutions to previously unsolvable problems and building scalable code libraries to put them into action.
