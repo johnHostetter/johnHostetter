@@ -1,0 +1,195 @@
+%-------------------------
+% Rover Resume - Base Template
+% Link: https://github.com/subidit/rover-resume
+%
+% Shows code for various formatting options for different resume sections.
+% Education and Projects have single-line headers; while Experience uses double-line.
+% Some formatting codes are kept inline; consider \newcommand{cmd}{def}.
+% Excludes hyperref and icons for readability; MVP version.
+% Explore other templates for more options.
+% Mix and match as desired. Be consistent with headers and sub-headers.
+%------------------------
+
+\documentclass[11pt]{article} % fontsize 10pt/11pt/12pt
+
+\usepackage[margin=1in, a4paper]{geometry}
+\setcounter{secnumdepth}{0} % remove section numbering
+\usepackage{titlesec}
+\titlespacing{\subsection}{0pt}{*0}{*0} % remove vertical spacing above and below
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\titleformat{\section}{\small\bfseries\uppercase}{}{}{}[\titlerule]
+\titleformat*{\subsubsection}{\small\itshape}
+\usepackage{enumitem}
+\usepackage{hyperref}  % added by me (John)
+% \setlist[itemize]{noitemsep,left=0pt .. \parindent}
+\pagestyle{empty} % remove page number
+% \pdfgentounicode=1
+
+
+\begin{document}
+
+\begin{center}
+	\begin{minipage}{0.5\textwidth}
+		{\LARGE\bfseries
+			John Wesley Hostetter % Name Here
+		} \\ \medskip
+		Computer Science Ph.D. Candidate % Title [optional]
+	\end{minipage} \hfill
+	\begin{minipage}{0.475\textwidth}
+		\raggedleft
+        \small
+		% Mobile: 717-228-8891  \\
+		LinkedIn: \href{https://www.linkedin.com/in/john-w-hostetter/}{linkedin.com/in/john-w-hostetter} \\
+		GitHub: \href{https://github.com/johnHostetter}{github.com/johnHostetter} \\
+		Email: jwhostet@ncsu.edu
+    \end{minipage}
+\end{center}
+
+\vspace{-24pt}
+
+\input{resume/experience}
+
+\vspace{-20pt}
+\section{Education}
+\vspace{-8pt}
+
+%=================%
+\noindent\textbf{North Carolina State University $|$ {\normalfont\itshape Computer Science M.Sc. \& Ph.D.} \hfill 2019-2025}
+\vspace{-6pt}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+    \item \textit{Volunteer Student Coordinator} for Doctoral Recruiting (2023 \& 2024 cohorts)
+    \item \textit{Peer Reviewer} for NeurIPS 2024, EAAI 2023 \& 2024, CHI 2022 \& 2024
+    \item Cumul. GPA: 3.83 w/ Graduate Merit Award (x3) \& Student Travel Grant (x2)
+\end{itemize}
+
+\vspace{-4pt}
+
+\noindent\textbf{The Pennsylvania State University $|$ {\normalfont\itshape Computer Science B.Sc.} \hfill 2016-2019}
+\vspace{-6pt}
+\begin{itemize}
+    \setlength\itemsep{-0.5em}
+    \item \textit{Secretary} for Association for Computing Machinery (ACM)
+    \item Cumul. GPA: 3.66 \& Dean's List (x4)
+\end{itemize}
+
+\vspace{-4pt}
+\noindent
+Engineering Physics coursework at \textbf{Embry-Riddle Aeronautical University} from 2015-2016
+
+% \vspace{-12pt}
+
+% \section{Certification \& Awards}
+% %===============================%
+% \begin{enumerate}
+% 	\item Some programming bootcamp, Location. \hfill 2023
+% 	\item Forbes Top 15 Procrastinators under 15. \hfill 2022
+% 	\item Perticipation award for attending workshop. \hfill 2021
+% \end{enumerate}
+
+\vspace{-12pt}
+
+\section{Selected Software Projects (\dag $\,$ Owner \& Sole Developer)}
+\vspace{-8pt}
+%=================
+\noindent\textbf{manim-timeline\textsuperscript{\dag} $|$ \href{https://pypi.org/project/manim-timeline}
+{\normalfont\textit{pypi.org/project/manim-timeline}} \hfill 2024}
+\vspace{-6pt}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+  % \item Seamlessly integrate history (e.g., quotes) on an elegant timeline for rapid presentation
+  \item A seamless and elegant timeline for rapid presentation of related literature
+\end{itemize}
+
+\vspace{-4pt}
+
+\noindent\textbf{manim-beamer\textsuperscript{\dag} $|$ \href{https://pypi.org/project/manim-beamer}
+{\normalfont\textit{pypi.org/project/manim-beamer}} \hfill 2024}
+\vspace{-6pt}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+  \item Emulates \LaTeX $\:$ beamer with Python and manim-slides
+\end{itemize}
+
+\vspace{-4pt}
+
+\noindent\textbf{PySoft\textsuperscript{\dag}  $|$ \href{https://hostetter-lab.github.io/PySoft}{\normalfont\textit{hostetter-lab.github.io/PySoft}} \hfill 2020-2024}
+\vspace{-6pt}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+  \item PyTorch library combining neuro-symbolic networks with reinforcement learning
+  \item 6.4k lines (5.9k lines of unit tests, source coverage of 94\%) supporting igraph, d3rlpy, sb3, skorch, rpy2, sympy, wandb, etc. for rapid experimentation and prototyping
+  % \item Produced at least 3 publications (AAMAS 2023, FUZZ IEEE $[$x2$]$)
+\end{itemize}
+
+\vspace{-4pt}
+
+% \cvpub{\textbf{PolicyPrep\textsuperscript{\dag} \textit{(open-source)}:} {\footnotesize A configurable pipeline automates experiment setup for offline reinforcement learning studies in education. It streamlines data management, policy induction, evaluation, and saves each lab member 1 to 2 months of labor annually. \href{https://github.com/johnHostetter/PolicyPrep}{https://github.com/johnHostetter/PolicyPrep}}}
+%     \\
+
+\noindent\textbf{PolicyPrep\textsuperscript{\dag} $|$ \href{https://github.com/johnHostetter/PolicyPrep}{\normalfont\textit{github.com/johnHostetter/PolicyPrep}} \hfill 2023-2024}
+\vspace{-6pt}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+  \item Built a configurable ML pipeline (2k lines) for offline reinforcement learning in e-learning
+  \item Saves each member 1-2 months annually with streamlined data \& policy management
+  % \item Includes rough set theory, genetic fuzzy systems, neuro-fuzzy networks, etc.
+\end{itemize}
+
+\vspace{-4pt}
+
+\noindent\textbf{Fuzzy Conservative Q-Learning\textsuperscript{\dag}  $|$ \href{https://github.com/johnHostetter/AAMAS-2023-FCQL}{\normalfont\textit{github.com/johnHostetter/AAMAS-2023-FCQL}} \hfill 2023}
+\vspace{-6pt}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+    \item PyTorch demo of Fuzzy Conservative Q-Learning (FCQL); published in \href{https://dl.acm.org/doi/10.5555/3545946.3598770}{AAMAS 2023}
+  % \item Available on \href{https://github.com/johnHostetter/AAMAS-2023-FCQL}{GitHub} and \href{https://zenodo.org/records/7668308}{Zenodo}: \texttt{johnHostetter/AAMAS-2023-FCQL:} \texttt{First release (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7668308}
+  % \item Includes rough set theory, genetic fuzzy systems, neuro-fuzzy networks, etc.
+\end{itemize}
+
+\vspace{-4pt}
+
+\noindent\textbf{Neuro-Symbolic AI\textsuperscript{\dag}  $|$ \href{https://github.com/johnHostetter/Soft-Computing}{\normalfont\textit{github.com/johnHostetter/Soft-Computing}} \hfill 2020-2022}
+\vspace{-6pt}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+  \item Python Numpy code for neuro-symbolic AI (e.g., rough sets, genetic fuzzy systems)
+  % \item Includes rough set theory, genetic fuzzy systems, neuro-fuzzy networks, etc.
+\end{itemize}
+
+% \vspace{-6pt}
+% \noindent
+% and at least 7 others (e.g., \href{https://github.com/johnHostetter/GPFRL}{GPFRL}, \href{https://github.com/johnHostetter/GARIC}{GARIC} \href{https://github.com/johnHostetter/manim-beamer}{manim-beamer}, \href{https://github.com/johnHostetter/PolicyPrep}{PolicyPrep}, \href{https://github.com/johnHostetter/AAMAS-2023-FCQL}{FCQL})
+
+% \vspace{-12pt}
+\vspace{-4pt}
+
+% \section{Selected Closed-Source Software}
+% \vspace{-8pt}
+%=================
+
+\noindent\textbf{HepiusApp (formerly OsteoApp) $|$ \href{https://ronak1997.github.io/Hepius/}{\normalfont\textit{ronak1997.github.io/Hepius/}} \hfill 2019}
+\vspace{-6pt}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+  \item Built a Xamarin app to research smartphone use in healthcare decisions for Osteoporosis
+  \item Transferred IP to \href{https://ott.psu.edu/penn-state-research-foundation/}{Penn State Research Fdn.}; articles in \href{https://pure.psu.edu/en/publications/development-and-patient-user-experience-evaluation-of-an-mhealth-}{Intl. Journal of HCI} \& \href{https://pure.psu.edu/en/publications/mhealth-apps-for-older-adults-a-method-for-development-and-user-e}{JTWC} %in 2019
+\end{itemize}
+\vspace{-4pt}
+\noindent
+and at least 4 more related to neuro-symbolic AI (e.g., \href{https://github.com/johnHostetter/GPFRL}{GPFRL}, \href{https://github.com/johnHostetter/GARIC}{GARIC}, \href{https://github.com/johnHostetter/Kohonen}{Kohonen}, \href{https://github.com/johnHostetter/Neuro-Fuzzy-Networks}{SaFIN})
+
+\vspace{-12pt}
+
+\section{Technical Skills}
+\vspace{-8pt}
+%===========================%
+\begin{description}[itemsep=0pt]
+\setlength\itemsep{-0.5em}
+    \item[Interests:] Fuzzy Logic, Neuro-Symbolic AI, Rough Sets, eXplainable AI, Machine Learning
+    \item[Languages:] \textit{Python (current)}, Java, C\#, C, R, Scheme, JavaScript, HTML, CSS, SQL
+	\item[Software:] Git, \LaTeX, IBM SPSS Statistics, Blender, Inkscape, Adobe XD
+    \item[Operating Systems:] Ubuntu 22.04.4 LTS, Fedora 36, Windows 7-11
+\end{description}
+
+\end{document}
