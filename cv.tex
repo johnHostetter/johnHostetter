@@ -24,8 +24,26 @@
 \usepackage{hyperref}  % added by me (John)
 \usepackage{bibentry}
 \usepackage{datetime}
+\usepackage{etoolbox}
+\usepackage{ifthen}
 % \usepackage{xcolor}
 
+% allow highlighting (highlight with \hlc[cyan!20]{foo}
+\usepackage{xcolor}
+\usepackage{soul}
+\newcommand{\hlc}[2][yellow]{{%
+    \colorlet{foo}{#1}%
+    \sethlcolor{foo}\hl{#2}}%
+}
+
+% custom commands
+% display longer CV version
+\newboolean{cv}
+\setboolean{cv}{True}
+\usepackage{titlesec}
+
+\titlespacing{\subsection}{0pt}{*0}{*0} % remove vertical spacing above and below
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
 % Configure page margins with geometry
 \geometry{left=0.75in, top=0.75in, right=0.75in, bottom=0.75in, footskip=.5cm}
 
@@ -69,7 +87,7 @@
 % Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
 \vspace{
--5cm
+-7.5cm
 }
 \makecvheader
 
@@ -80,9 +98,10 @@
   {John Wesley Hostetter ~~~·~~~ Curriculum Vitae}
   {\thepage}
 
+\ifthenelse{\boolean{cv}}{
 \textit{I develop methodologies to construct human-readable neural architectures that may facilitate knowledge transfer. These systems \textemdash self-organizing neuro-fuzzy networks, may substitute traditional feed-forward neural networks.}
-
-\vspace{-10pt}
+\vspace{-8pt}
+}{\relax}
 
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
@@ -91,13 +110,17 @@
 %-------------------------------------------------------------------------------
 \input{cv/education.tex}
 \input{cv/professional.tex}
+\vspace{-8pt}
 \input{cv/publications.tex}
 \input{cv/honors.tex}
-\input{cv/presentation.tex}
-\input{cv/teaching.tex}
+
+% \input{cv/presentation.tex}
+% \input{cv/teaching.tex}
+\vspace{-8pt}
 \input{cv/software.tex}
 % \input{cv/mentoring.tex}
 %\input{cv/research.tex}
+\vspace{-8pt}
 \input{cv/extracurricular.tex}
 
 %-------------------------------------------------------------------------------
