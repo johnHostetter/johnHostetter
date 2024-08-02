@@ -4,7 +4,7 @@
 
 ## About Me 🙂
 I am a Computer Science Ph.D. Candidate with experience implementing neural architectures called neuro-fuzzy networks (NFNs).
-I will defend my dissertation and graduate in the Spring of 2025. and am looking for a new opportunity to continue building eXplainable AI!
+I will defend my dissertation and graduate in the Spring of 2025, and am looking for a new opportunity to continue building eXplainable AI!
 
 ## Current Work 🔭
 
