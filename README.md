@@ -3,18 +3,16 @@
 ![Github Stars](https://img.shields.io/github/stars/johnHostetter?affiliations=OWNER%2CCOLLABORATOR%2CORGANIZATION_MEMBER&style=social) ![Github Followers](https://img.shields.io/github/followers/johnHostetter?style=social)
 
 ## About Me 🙂
-I am a Computer Science Ph.D. Candidate with experience implementing neural architectures called neuro-fuzzy networks (NFNs).
-I will defend my dissertation and graduate in the Spring of 2025, and am looking for a new opportunity to continue building eXplainable AI!
+I am an Assistant Professor within the Department of Analytics and Information Systems at Western Kentucky University's Gordon Ford College of Business. My research experience revolves around neuro-symbolic architectures called neuro-fuzzy networks (NFNs).
 
 ## Current Work 🔭
 
-I am researching a new prototype NFN that can automatically reconfigure its knowledge base in response to its performance with respect to an objective function.
-These architectures natively handle missing data in the inputs and can easily transfer their knowledge to other models. The results of this novel work will be reported in my dissertation.
+I am researching a new prototype NFN that can automatically reconfigure its knowledge base in response to its performance with respect to an objective function. These architectures natively handle missing data in the inputs and can easily transfer their knowledge to other models. The results of this novel work are reported in my [dissertation](https://repository.lib.ncsu.edu/items/8f45e84f-fc17-484e-9b60-21aad7b2cc34).
 
 ## Primary Accomplishments 🏆
 
-- Invented the first method to achieve fuzzy reinforcement learning in computer vision tasks (pending review).
-- First publication to create NFNs for tasks with high-dimensions (to the best of my knowledge).
+- Created the first method to achieve fuzzy reinforcement learning in computer vision tasks (refer to my [dissertation](https://repository.lib.ncsu.edu/items/8f45e84f-fc17-484e-9b60-21aad7b2cc34)).
+- First publication to create NFNs for tasks with high dimensions (to the best of my knowledge).
   [![DOI:10.5555/3545946.3598770](http://img.shields.io/badge/DOI-10.5555/3545946.3598770-B31B1B.svg)](https://doi.org/10.5555/3545946.3598770)
 - Published the first work solely dedicated to offline model-free fuzzy reinforcement learning.
   [![DOI:10.5555/3545946.3598770](http://img.shields.io/badge/DOI-10.5555/3545946.3598770-B31B1B.svg)](https://doi.org/10.5555/3545946.3598770)
@@ -22,10 +20,9 @@ These architectures natively handle missing data in the inputs and can easily tr
   [![DOI:10.1109/FUZZ52849.2023.10309741](http://img.shields.io/badge/DOI-10.1109/FUZZ52849.2023.10309741-B31B1B.svg)](https://doi.org/10.1109/FUZZ52849.2023.10309741)
 
 ## Q & A ❓
-### How can I help your business?
+### Can we collaborate on research?
 
-My expertise is in developing novel solutions to previously unsolvable problems and building scalable code libraries to put them into action.
-I am looking for a new role where I can push not only my boundaries, but the boundaries of entire fields by continuing to solve the unsolvable.
+I may be interested in a research collaboration. Please feel free to reach out. 
 
 ### What is my coding philosophy?
 
@@ -35,11 +32,11 @@ I adhere to the relevant conventions of the programming language and maintain a 
 
 ## Contact Information 📬
 
-Email: jwhostet@ncsu.edu or jhostetter16@gmail.com
+Email: john.hostetter@wku.edu
 
 ## Fun Fact ⚡
 
-My "coding buddy" is an adopted three year old Siberian Husky named Zoey!
+My "coding buddy" is an adopted four-year-old Siberian Husky named Zoey!
 
 <img src="https://github.com/johnHostetter/johnHostetter/assets/35469358/409f6ad5-7542-47eb-b257-042e3d5dd689/zoey.jpg" alt="drawing" width="300" border="1"/>
 
